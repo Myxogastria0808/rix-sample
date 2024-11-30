@@ -1,0 +1,8 @@
+services:
+  r-base:
+    container_name: r-base
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    tty: true
+    restart: always
